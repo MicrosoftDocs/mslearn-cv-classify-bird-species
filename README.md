@@ -1,16 +1,16 @@
 ---
 page_type: sample
 languages:
-- python
+  - python
 products:
-- Azure Cognitive Services - Custom Vision
+  - Azure Cognitive Services - Custom Vision
 description: "Add 150 character max description"
 urlFragment: "update-this-to-unique-url-stub"
 ---
 
-# Official Microsoft Sample
+# MS Learn Custom Vision Bird Species Classification
 
-<!-- 
+<!--
 Guidelines on README format: https://review.docs.microsoft.com/help/onboard/admin/samples/concepts/readme-template?branch=master
 
 Guidance on onboarding samples to docs.microsoft.com/samples: https://review.docs.microsoft.com/help/onboard/admin/samples/process/onboarding?branch=master
@@ -18,14 +18,14 @@ Guidance on onboarding samples to docs.microsoft.com/samples: https://review.doc
 Taxonomies for products and languages: https://review.docs.microsoft.com/new-hope/information-architecture/metadata/taxonomies?branch=master
 -->
 
-Give a short description for your sample here. What does it do and why is it important?
+This repo has the python source and sample dataset for the MS Learn module to create a computer vision Azure Custom Vision model. The sample code is to create the project, create the image tags based on the folder name (bird species) and upload the respective photos to the tag created in Azure.
 
 ## Contents
 
 Outline the file contents of the repository. It helps users navigate the codebase, build configuration and any related assets.
 
 | File/folder       | Description                                |
-|-------------------|--------------------------------------------|
+| ----------------- | ------------------------------------------ |
 | `src`             | Sample source code.                        |
 | `.gitignore`      | Define what to ignore at commit time.      |
 | `CHANGELOG.md`    | List of changes to the sample.             |
@@ -51,7 +51,7 @@ Provide users with more context on the tools and services used in the sample. Ex
 
 ## Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This project welcomes contributions and suggestions. Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
 
